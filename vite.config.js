@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/stitch-sevimli-dukkalama-sitesi/",
+  base: "/ardayi-dukkalama/",
   build: {
     rollupOptions: {
       output: {

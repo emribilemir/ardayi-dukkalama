@@ -1,4 +1,4 @@
-# Dukkalama
+# Ardayi Dukkalama
 
 Bol efektli, responsive ve kawaii bir React/Vite GitHub Pages sitesi.
 
