@@ -217,34 +217,10 @@ a {
   z-index: 0;
   overflow: hidden;
   border-radius: inherit;
+  background:
+    radial-gradient(circle at 0% 0%, rgba(255, 106, 168, 0.28) 0 76px, rgba(255, 106, 168, 0.16) 96px, transparent 148px),
+    radial-gradient(circle at 100% 100%, rgba(125, 226, 195, 0.3) 0 88px, rgba(125, 226, 195, 0.15) 112px, transparent 172px);
   pointer-events: none;
-}
-
-.panel-glow-mask::before,
-.panel-glow-mask::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-}
-
-.panel-glow-mask::before {
-  width: 170px;
-  height: 170px;
-  top: -74px;
-  left: -52px;
-  border-radius: 999px;
-  background: rgba(255, 106, 168, 0.28);
-  filter: blur(8px);
-}
-
-.panel-glow-mask::after {
-  width: 210px;
-  height: 210px;
-  right: -84px;
-  bottom: -90px;
-  border-radius: 999px;
-  background: rgba(125, 226, 195, 0.28);
-  filter: blur(9px);
 }
 
 .micro-badge,
